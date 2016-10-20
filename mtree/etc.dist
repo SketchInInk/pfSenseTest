@@ -1,0 +1,861 @@
+#	   user: root
+#	machine: pfs22-amd64-builder
+#	   tree: /usr/local/pfsense-fs/etc
+#	   date: Mon Dec 21 15:20:25 2015
+
+# .
+/set type=file uid=0 gid=0 mode=0755 nlink=1 flags=none
+.               type=dir nlink=26 time=1450732825.000000000
+    apmd.conf   mode=0644 size=1180 time=1450732620.000000000
+    auto_master mode=0644 size=105 time=1450732620.000000000
+    bogons      mode=0644 size=132 time=1450731239.000000000
+    bogonsv6    mode=0644 size=0 time=1450731239.000000000
+    ca_countries \
+                mode=0644 size=3414 time=1450731239.000000000
+    crontab     mode=0644 size=126 time=1450731239.000000000
+    csh.cshrc   mode=0644 size=52 time=1450732620.000000000
+    csh.login   mode=0644 size=422 time=1450732620.000000000
+    csh.logout  mode=0644 size=53 time=1450732620.000000000
+    ddb.conf    mode=0644 size=225 time=1450731239.000000000
+    devd.conf   mode=0644 size=2351 time=1450731239.000000000
+    devfs.conf  mode=0644 size=1930 time=1450732620.000000000
+    dh-parameters.1024 \
+                mode=0644 size=245 time=1450731239.000000000
+    dh-parameters.2048 \
+                mode=0644 size=424 time=1450731239.000000000
+    dh-parameters.4096 \
+                mode=0644 size=769 time=1450731239.000000000
+    dhclient.conf \
+                mode=0644 size=205 time=1450732620.000000000
+    disktab     mode=0644 size=5900 time=1450731239.000000000
+    dumpdates   gid=5 mode=0664 size=0 time=1450732620.000000000
+    ecl.php     size=5326 time=1450731239.000000000
+    fbtab       mode=0644 size=142 time=1450731239.000000000
+    ftpusers    mode=0644 size=219 time=1450732620.000000000
+    gettytab    mode=0644 size=6161 time=1450731239.000000000
+    group       mode=0644 size=413 time=1450731239.000000000
+    host.conf   mode=0644 size=205 time=1450731239.000000000
+    hosts       mode=0644 size=1031 time=1450732620.000000000
+    hosts.allow mode=0644 size=89 time=1450731239.000000000
+    hosts.equiv mode=0644 size=53 time=1450732620.000000000
+    inetd.conf  mode=0644 size=65 time=1450731239.000000000
+    libalias.conf \
+                mode=0644 size=170 time=1450732620.000000000
+    libmap.conf mode=0644 size=47 time=1450732620.000000000
+    libmap32.conf \
+                mode=0644 size=48 time=1450732620.000000000
+    login.access \
+                mode=0644 size=1785 time=1450732620.000000000
+    login.conf  mode=0644 size=6523 time=1450731239.000000000
+    login.conf.db \
+                mode=0644 size=16384 time=1450732620.000000000
+    mac.conf    mode=0644 size=507 time=1450732620.000000000
+    master.passwd \
+                mode=0600 size=1848 time=1450731239.000000000
+    master.passwd.db \
+                mode=0644 size=16384 time=1450732825.000000000
+    motd        mode=0644 size=0 time=1450731239.000000000
+    netconfig   mode=0644 size=729 time=1450732620.000000000
+    netstart    size=2331 time=1450732620.000000000
+    network.subr \
+                mode=0644 size=37245 time=1450732620.000000000
+    networks    mode=0644 size=365 time=1450731239.000000000
+    newsyslog.conf \
+                mode=0644 size=2000 time=1450732620.000000000
+    nsmb.conf   mode=0600 size=1642 time=1450732620.000000000
+    nsswitch.conf \
+                mode=0644 size=258 time=1450732620.000000000
+    opieaccess  mode=0600 size=377 time=1450732620.000000000
+    passwd      mode=0644 size=1526 time=1450731239.000000000
+    pccard_ether \
+                size=2327 time=1450732620.000000000
+    pf.os       mode=0644 size=28793 time=1450731239.000000000
+    pfSense.obsoletedfiles \
+                mode=0644 size=35326 time=1450731239.000000000
+    phones      mode=0644 size=183 time=1450732620.000000000
+    platform    mode=0644 size=7 time=1450731239.000000000
+    printcap    mode=0644 size=0 time=1450731239.000000000
+    profile     mode=0644 size=562 time=1450732620.000000000
+    protocols   mode=0644 size=6454 time=1450731239.000000000
+    pubkey.pem  mode=0644 size=630 time=1450731239.000000000
+    pwd.db      mode=0644 size=40960 time=1450732825.000000000
+    rc          size=12848 time=1450731239.000000000
+    rc.backup_dhcpleases.sh \
+                size=212 time=1450731239.000000000
+    rc.backup_rrd.sh \
+                size=785 time=1450731239.000000000
+    rc.banner   size=3396 time=1450731239.000000000
+    rc.bootup   size=13181 time=1450731239.000000000
+    rc.bsdextended \
+                mode=0644 size=4543 time=1450732620.000000000
+    rc.captiveportal_configure \
+                size=1597 time=1450731239.000000000
+    rc.carpbackup \
+                size=3798 time=1450731239.000000000
+    rc.carpmaster \
+                size=4513 time=1450731239.000000000
+    rc.cdrom    size=1064 time=1450731239.000000000
+    rc.conf     mode=0644 size=58 time=1450731239.000000000
+    rc.conf_mount_ro \
+                size=1475 time=1450731239.000000000
+    rc.conf_mount_rw \
+                size=1475 time=1450731239.000000000
+    rc.create_full_backup \
+                size=496 time=1450731239.000000000
+    rc.dhclient_cron \
+                size=2046 time=1450731239.000000000
+    rc.disable_hdd_apm \
+                size=274 time=1450731239.000000000
+    rc.dumpon   size=698 time=1450731239.000000000
+    rc.dyndns.update \
+                size=2018 time=1450731239.000000000
+    rc.embedded size=1008 time=1450731239.000000000
+    rc.expireaccounts \
+                size=2156 time=1450731239.000000000
+    rc.filter_configure \
+                size=1665 time=1450731239.000000000
+    rc.filter_configure_sync \
+                size=1630 time=1450731239.000000000
+    rc.filter_configure_xmlrpc \
+                size=2137 time=1450731239.000000000
+    rc.filter_synchronize \
+                size=15904 time=1450731239.000000000
+    rc.firewall mode=0644 size=18530 time=1450732620.000000000
+    rc.firmware size=17691 time=1450731239.000000000
+    rc.firmware_auto \
+                size=2098 time=1450731239.000000000
+    rc.halt     size=234 time=1450731239.000000000
+    rc.initdiskless \
+                mode=0644 size=12792 time=1450732620.000000000
+    rc.initial  size=3784 time=1450731239.000000000
+    rc.initial.defaults \
+                size=1932 time=1450731239.000000000
+    rc.initial.firmware_update \
+                size=5515 time=1450731239.000000000
+    rc.initial.halt \
+                size=1976 time=1450731239.000000000
+    rc.initial.password \
+                size=3336 time=1450731239.000000000
+    rc.initial.ping \
+                size=1943 time=1450731239.000000000
+    rc.initial.reboot \
+                size=1911 time=1450731239.000000000
+    rc.initial.setlanip \
+                size=17057 time=1450731239.000000000
+    rc.initial.setports \
+                size=1855 time=1450731239.000000000
+    rc.initial.store_config_to_removable_device \
+                size=3145 time=1450731239.000000000
+    rc.initial.toggle_sshd \
+                size=2510 time=1450731239.000000000
+    rc.interfaces_carp_configure \
+                size=1587 time=1450731239.000000000
+    rc.interfaces_lan_configure \
+                size=1586 time=1450731239.000000000
+    rc.interfaces_opt_configure \
+                size=1643 time=1450731239.000000000
+    rc.interfaces_wan_configure \
+                size=1814 time=1450731239.000000000
+    rc.kill_states \
+                size=3146 time=1450731239.000000000
+    rc.linkup   size=4965 time=1450731239.000000000
+    rc.nanobsd_switch_boot_slice \
+                size=786 time=1450731239.000000000
+    rc.newipsecdns \
+                size=2095 time=1450731239.000000000
+    rc.newroutedns \
+                size=2148 time=1450731239.000000000
+    rc.newwanip size=7944 time=1450731239.000000000
+    rc.newwanipv6 \
+                size=6368 time=1450731239.000000000
+    rc.notify_message \
+                size=1928 time=1450731239.000000000
+    rc.ntpdate  size=1602 time=1450731239.000000000
+    rc.openvpn  size=4676 time=1450731239.000000000
+    rc.packages size=1726 time=1450731239.000000000
+    rc.php-fpm_restart \
+                size=574 time=1450731239.000000000
+    rc.php_ini_setup \
+                size=11292 time=1450731239.000000000
+    rc.prunecaptiveportal \
+                size=2514 time=1450731239.000000000
+    rc.reboot   size=1016 time=1450731239.000000000
+    rc.reload_all \
+                size=1811 time=1450731239.000000000
+    rc.reload_interfaces \
+                size=1747 time=1450731239.000000000
+    rc.resolv_conf_generate \
+                size=1439 time=1450731239.000000000
+    rc.restart_webgui \
+                size=416 time=1450731239.000000000
+    rc.restore_config_backup \
+                size=3374 time=1450731239.000000000
+    rc.restore_full_backup \
+                size=543 time=1450731239.000000000
+    rc.resume   size=2139 time=1450732620.000000000
+    rc.savecore size=472 time=1450731239.000000000
+    rc.savevoucher \
+                size=1641 time=1450731239.000000000
+    rc.sendmail mode=0644 size=5724 time=1450732620.000000000
+    rc.shutdown size=1207 time=1450731239.000000000
+    rc.start_packages \
+                size=3053 time=1450731239.000000000
+    rc.stop_packages \
+                size=80 time=1450731239.000000000
+    rc.subr     mode=0644 size=47466 time=1450732620.000000000
+    rc.suspend  size=2267 time=1450732620.000000000
+    rc.update_alias_url_data \
+                size=1666 time=1450731239.000000000
+    rc.update_bogons.sh \
+                size=4662 time=1450731239.000000000
+    rc.update_urltables \
+                size=1587 time=1450731239.000000000
+    regdomain.xml \
+                mode=0644 size=53654 time=1450732620.000000000
+    remote      mode=0644 size=2639 time=1450732620.000000000
+    rmt         type=link time=1450732620.000000000 link=/usr/sbin/rmt
+    rpc         mode=0644 size=1620 time=1450732620.000000000
+    services    mode=0644 size=153305 time=1450731239.000000000
+    shells      mode=0644 size=267 time=1450731239.000000000
+    snmpd.config \
+                mode=0644 size=8596 time=1450732620.000000000
+    spwd.db     mode=0600 size=40960 time=1450732825.000000000
+    sshd        size=7304 time=1450731239.000000000
+    sysctl.conf mode=0644 size=311 time=1450732620.000000000
+    syslog.conf mode=0644 size=612 time=1450731239.000000000
+    termcap     type=link time=1450732620.000000000 \
+                link=/usr/share/misc/termcap
+    termcap.small \
+                mode=0644 size=12233 time=1450732620.000000000
+    ttys        mode=0644 size=2127 time=1450731239.000000000
+    version     mode=0644 size=14 time=1450731239.000000000
+
+# ./X11
+X11             type=dir nlink=2 time=1450732611.000000000
+# ./X11
+..
+
+
+# ./ascii-art
+/set type=file uid=0 gid=0 mode=0644 nlink=1 flags=none
+ascii-art       type=dir mode=0755 nlink=2 time=1450731239.000000000
+    pfsense-logo-small.txt \
+                size=54 time=1450731239.000000000
+# ./ascii-art
+..
+
+
+# ./autofs
+/set type=file uid=0 gid=0 mode=0755 nlink=1 flags=none
+autofs          type=dir nlink=2 time=1450732620.000000000
+    include_ldap \
+                size=945 time=1450732620.000000000
+    special_hosts \
+                size=301 time=1450732620.000000000
+    special_null \
+                size=32 time=1450732620.000000000
+# ./autofs
+..
+
+
+# ./bluetooth
+bluetooth       type=dir nlink=2 time=1450732611.000000000
+# ./bluetooth
+..
+
+
+# ./defaults
+/set type=file uid=0 gid=0 mode=0444 nlink=1 flags=none
+defaults        type=dir mode=0755 nlink=2 time=1450732620.000000000
+    bluetooth.device.conf \
+                size=3924 time=1450732620.000000000
+    devfs.rules size=2376 time=1450732620.000000000
+    periodic.conf \
+                size=11633 time=1450732620.000000000
+    rc.conf     size=37279 time=1450732620.000000000
+# ./defaults
+..
+
+
+# ./devd
+/set type=file uid=0 gid=0 mode=0644 nlink=1 flags=none
+devd            type=dir mode=0755 nlink=2 time=1450732620.000000000
+    asus.conf   size=1960 time=1450732620.000000000
+    hyperv.conf size=356 time=1450732620.000000000
+    uath.conf   size=3083 time=1450732620.000000000
+    usb.conf    size=116209 time=1450732620.000000000
+# ./devd
+..
+
+
+# ./gss
+/set type=file uid=0 gid=0 mode=0444 nlink=1 flags=none
+gss             type=dir mode=0755 nlink=2 time=1450732620.000000000
+    mech        size=251 time=1450732620.000000000
+    qop         size=101 time=1450732620.000000000
+# ./gss
+..
+
+
+# ./inc
+/set type=file uid=0 gid=0 mode=0644 nlink=1 flags=none
+inc             type=dir mode=0755 nlink=4 time=1450731239.000000000
+    CHAP.inc    size=12748 time=1450731239.000000000
+    IPv6.inc    size=26894 time=1450731239.000000000
+    PEAR.inc    size=35184 time=1450731239.000000000
+    auth.inc    size=47420 time=1450731239.000000000
+    authgui.inc size=11015 time=1450731239.000000000
+    basic_sasl_client.inc \
+                size=1268 time=1450731239.000000000
+    captiveportal.inc \
+                size=78509 time=1450731239.000000000
+    certs.inc   size=20492 time=1450731239.000000000
+    config.console.inc \
+                size=15179 time=1450731239.000000000
+    config.gui.inc \
+                size=2851 time=1450731239.000000000
+    config.inc  size=7219 time=1450731239.000000000
+    config.lib.inc \
+                size=29166 time=1450731239.000000000
+    cram_md5_sasl_client.inc \
+                size=1704 time=1450731239.000000000
+    crypt.inc   size=2926 time=1450731239.000000000
+    digest_sasl_client.inc \
+                size=3806 time=1450731239.000000000
+    dot.hushlogin \
+                size=0 time=1450731239.000000000
+    dyndns.class \
+                size=59022 time=1450731239.000000000
+    easyrule.inc \
+                size=11700 time=1450731239.000000000
+    filter.inc  size=142739 time=1450731239.000000000
+    filter_log.inc \
+                size=15003 time=1450731239.000000000
+    functions.inc \
+                size=6192 time=1450731239.000000000
+    globals.inc size=7030 time=1450731239.000000000
+    gmirror.inc size=11868 time=1450731239.000000000
+    growl.class size=3371 time=1450731239.000000000
+    gwlb.inc    size=39318 time=1450731239.000000000
+    interfaces.inc \
+                size=163527 time=1450731239.000000000
+    ipsec.attributes.php \
+                size=5072 time=1450731239.000000000
+    ipsec.auth-user.php \
+                mode=0755 size=4382 time=1450731239.000000000
+    ipsec.inc   size=19100 time=1450731239.000000000
+    itemid.inc  size=3021 time=1450731239.000000000
+    led.inc     size=5716 time=1450731239.000000000
+    login_sasl_client.inc \
+                size=1683 time=1450731239.000000000
+    meta.inc    size=5176 time=1450731239.000000000
+    notices.inc size=12383 time=1450731239.000000000
+    ntlm_sasl_client.inc \
+                size=5063 time=1450731239.000000000
+    openvpn.attributes.php \
+                size=5134 time=1450731239.000000000
+    openvpn.auth-user.php \
+                size=5584 time=1450731239.000000000
+    openvpn.inc size=44389 time=1450731239.000000000
+    openvpn.tls-verify.php \
+                size=2924 time=1450731239.000000000
+    pfsense-utils.inc \
+                size=89032 time=1450731239.000000000
+    pkg-utils.inc \
+                size=58164 time=1450731239.000000000
+    plain_sasl_client.inc \
+                size=2622 time=1450731239.000000000
+    priv.defs.inc \
+                size=98119 time=1450731239.000000000
+    priv.inc    size=7513 time=1450731239.000000000
+    r53.class   size=24518 time=1450731239.000000000
+    radius.inc  size=36450 time=1450731239.000000000
+    rrd.inc     size=37799 time=1450731239.000000000
+    sasl.inc    size=11898 time=1450731239.000000000
+    service-utils.inc \
+                size=21281 time=1450731239.000000000
+    services.inc \
+                size=84508 time=1450731239.000000000
+    shaper.inc  size=144975 time=1450731239.000000000
+    smtp.inc    size=22397 time=1450731239.000000000
+    system.inc  size=68713 time=1450731239.000000000
+    unbound.inc size=22607 time=1450731239.000000000
+    upgrade_config.inc \
+                size=113158 time=1450731239.000000000
+    util.inc    size=58020 time=1450731239.000000000
+    uuid.php    size=11720 time=1450731239.000000000
+    voucher.inc size=27270 time=1450731239.000000000
+    vpn.inc     size=62528 time=1450731239.000000000
+    vslb.inc    size=18338 time=1450731239.000000000
+    wizardapp.inc \
+                size=34271 time=1450731239.000000000
+    xmlparse.inc \
+                size=10350 time=1450731239.000000000
+    xmlparse_attr.inc \
+                size=6572 time=1450731239.000000000
+    xmlreader.inc \
+                size=9633 time=1450731239.000000000
+    xmlrpc.inc  size=5346 time=1450731239.000000000
+    xmlrpc_client.inc \
+                size=60347 time=1450731239.000000000
+    xmlrpc_server.inc \
+                size=22579 time=1450731239.000000000
+    zeromq.inc  size=9064 time=1450731239.000000000
+
+# ./inc/priv
+priv            type=dir mode=0755 nlink=2 time=1450731239.000000000
+    user.priv.inc \
+                size=4030 time=1450731239.000000000
+# ./inc/priv
+..
+
+
+# ./inc/simplepie
+simplepie       type=dir mode=0755 nlink=2 time=1450731239.000000000
+    LICENSE.txt size=1537 time=1450731239.000000000
+    simplepie.inc \
+                size=355897 time=1450731239.000000000
+# ./inc/simplepie
+..
+
+# ./inc
+..
+
+
+# ./mail
+mail            type=dir mode=0755 nlink=2 time=1450732611.000000000
+# ./mail
+..
+
+
+# ./mtree
+/set type=file uid=0 gid=0 mode=0444 nlink=1 flags=none
+mtree           type=dir mode=0755 nlink=2 time=1450732825.000000000
+    BSD.include.dist \
+                size=5053 time=1450732620.000000000
+    BSD.local.dist \
+                mode=0644 size=0 time=1450731239.000000000
+    BSD.root.dist \
+                size=1332 time=1450732620.000000000
+    BSD.usr.dist \
+                size=28812 time=1450732620.000000000
+    BSD.var.dist \
+                size=1906 time=1450732620.000000000
+    etc.dist    mode=0644 size=0 time=1450732825.000000000
+    root.dist   mode=0644 size=643 time=1450732825.000000000
+    var.dist    mode=0644 size=5195 time=1450732825.000000000
+# ./mtree
+..
+
+
+# ./newsyslog.conf.d
+newsyslog.conf.d \
+                type=dir mode=0755 nlink=2 time=1450732611.000000000
+# ./newsyslog.conf.d
+..
+
+
+# ./ntp
+ntp             type=dir mode=0700 nlink=2 time=1450732611.000000000
+# ./ntp
+..
+
+
+# ./pam.d
+/set type=file uid=0 gid=0 mode=0644 nlink=1 flags=none
+pam.d           type=dir mode=0755 nlink=2 time=1450732620.000000000
+    README      mode=0444 size=2840 time=1450732620.000000000
+    atrun       size=257 time=1450732620.000000000
+    cron        size=135 time=1450732620.000000000
+    ftp         nlink=2 size=467 time=1450732620.000000000
+    ftpd        nlink=2 size=467 time=1450732620.000000000
+    imap        size=301 time=1450732620.000000000
+    login       size=308 time=1450732620.000000000
+    other       size=606 time=1450732620.000000000
+    passwd      size=245 time=1450732620.000000000
+    pop3        size=301 time=1450732620.000000000
+    rsh         size=265 time=1450732620.000000000
+    sshd        size=684 time=1450732620.000000000
+    su          size=322 time=1450732620.000000000
+    system      size=641 time=1450732620.000000000
+    telnetd     size=697 time=1450732620.000000000
+    xdm         size=466 time=1450732620.000000000
+# ./pam.d
+..
+
+
+# ./periodic
+/set type=file uid=0 gid=0 mode=0755 nlink=1 flags=none
+periodic        type=dir nlink=6 time=1450732611.000000000
+
+# ./periodic/daily
+daily           type=dir nlink=2 time=1450732620.000000000
+    100.clean-disks \
+                size=1202 time=1450732620.000000000
+    110.clean-tmps \
+                size=1492 time=1450732620.000000000
+    120.clean-preserve \
+                size=1012 time=1450732620.000000000
+    200.backup-passwd \
+                size=1664 time=1450732620.000000000
+    210.backup-aliases \
+                size=916 time=1450732620.000000000
+    310.accounting \
+                size=1387 time=1450732620.000000000
+    330.news    size=640 time=1450732620.000000000
+    400.status-disks \
+                size=545 time=1450732620.000000000
+    401.status-graid \
+                size=492 time=1450732620.000000000
+    404.status-zfs \
+                size=718 time=1450732620.000000000
+    406.status-gmirror \
+                size=501 time=1450732620.000000000
+    407.status-graid3 \
+                size=497 time=1450732620.000000000
+    408.status-gstripe \
+                size=495 time=1450732620.000000000
+    409.status-gconcat \
+                size=495 time=1450732620.000000000
+    420.status-network \
+                size=470 time=1450732620.000000000
+    450.status-security \
+                size=694 time=1450732620.000000000
+    800.scrub-zfs \
+                size=2394 time=1450732620.000000000
+    999.local   size=641 time=1450732620.000000000
+# ./periodic/daily
+..
+
+
+# ./periodic/monthly
+monthly         type=dir nlink=2 time=1450732620.000000000
+    200.accounting \
+                size=858 time=1450732620.000000000
+    450.status-security \
+                size=704 time=1450732620.000000000
+    999.local   size=533 time=1450732620.000000000
+# ./periodic/monthly
+..
+
+
+# ./periodic/security
+security        type=dir nlink=2 time=1450732620.000000000
+    100.chksetuid \
+                size=2037 time=1450732620.000000000
+    110.neggrpperm \
+                size=2057 time=1450732620.000000000
+    200.chkmounts \
+                size=2232 time=1450732620.000000000
+    300.chkuid0 size=1878 time=1450732620.000000000
+    400.passwdless \
+                size=1871 time=1450732620.000000000
+    410.logincheck \
+                size=1875 time=1450732620.000000000
+    500.ipfwdenied \
+                size=1909 time=1450732620.000000000
+    520.pfdenied \
+                size=1949 time=1450732620.000000000
+    550.ipfwlimit \
+                size=2155 time=1450732620.000000000
+    700.kernelmsg \
+                size=1839 time=1450732620.000000000
+    800.loginfail \
+                size=2255 time=1450732620.000000000
+    900.tcpwrap size=2226 time=1450732620.000000000
+    security.functions \
+                size=2705 time=1450732620.000000000
+# ./periodic/security
+..
+
+
+# ./periodic/weekly
+weekly          type=dir nlink=2 time=1450732620.000000000
+    340.noid    size=550 time=1450732620.000000000
+    450.status-security \
+                size=699 time=1450732620.000000000
+    999.local   size=532 time=1450732620.000000000
+# ./periodic/weekly
+..
+
+# ./periodic
+..
+
+
+# ./phpshellsessions
+/set type=file uid=0 gid=0 mode=0644 nlink=1 flags=none
+phpshellsessions \
+                type=dir mode=0755 nlink=2 time=1450731239.000000000
+    changepassword \
+                size=1935 time=1450731239.000000000
+    disablecarp size=386 time=1450731239.000000000
+    disabledhcpd \
+                size=230 time=1450731239.000000000
+    disablereferercheck \
+                size=220 time=1450731239.000000000
+    enableallowallwan \
+                size=1307 time=1450731239.000000000
+    enablecarp  size=516 time=1450731239.000000000
+    enablesshd  size=298 time=1450731239.000000000
+    externalconfiglocator \
+                size=27 time=1450731239.000000000
+    generateguicert \
+                size=284 time=1450731239.000000000
+    gitsync     size=14972 time=1450731239.000000000
+    installpkg  size=1124 time=1450731239.000000000
+    listpkg     size=380 time=1450731239.000000000
+    removepkgconfig \
+                size=328 time=1450731239.000000000
+    removeshaper \
+                size=624 time=1450731239.000000000
+    restartdhcpd \
+                size=111 time=1450731239.000000000
+    restartipsec \
+                size=190 time=1450731239.000000000
+    svc         size=2368 time=1450731239.000000000
+    uninstallpkg \
+                size=840 time=1450731239.000000000
+# ./phpshellsessions
+..
+
+
+# ./pkg
+pkg             type=dir mode=0755 nlink=2 time=1450732620.000000000
+    FreeBSD.conf \
+                size=436 time=1450732620.000000000
+# ./pkg
+..
+
+
+# ./ppp
+/set type=file uid=0 gid=0 mode=0600 nlink=1 flags=none
+ppp             type=dir mode=0755 nlink=2 time=1450732620.000000000
+    ppp.conf    size=1082 time=1450732620.000000000
+# ./ppp
+..
+
+
+# ./rc.conf.d
+rc.conf.d       type=dir mode=0755 nlink=2 time=1450732611.000000000
+# ./rc.conf.d
+..
+
+
+# ./rc.d
+/set type=file uid=0 gid=0 mode=0555 nlink=1 flags=none
+rc.d            type=dir mode=0755 nlink=2 time=1450732825.000000000
+    DAEMON      size=178 time=1450732620.000000000
+    FILESYSTEMS size=353 time=1450732620.000000000
+    LOGIN       size=346 time=1450732620.000000000
+    NETWORKING  size=335 time=1450732620.000000000
+    SERVERS     size=203 time=1450732620.000000000
+    abi         size=1092 time=1450732620.000000000
+    accounting  size=1243 time=1450732620.000000000
+    addswap     size=319 time=1450732620.000000000
+    adjkerntz   size=230 time=1450732620.000000000
+    amd         size=773 time=1450732620.000000000
+    apm         size=562 time=1450732620.000000000
+    apmd        size=568 time=1450732620.000000000
+    archdep     size=606 time=1450732620.000000000
+    atm1        size=4096 time=1450732620.000000000
+    atm2        size=2573 time=1450732620.000000000
+    atm3        size=2351 time=1450732620.000000000
+    auditd      size=521 time=1450732620.000000000
+    auditdistd  size=339 time=1450732620.000000000
+    automount   size=367 time=1450732620.000000000
+    automountd  size=272 time=1450732620.000000000
+    autounmountd \
+                size=250 time=1450732620.000000000
+    bgfsck      size=847 time=1450732620.000000000
+    bootparams  size=274 time=1450732620.000000000
+    bridge      size=2253 time=1450732620.000000000
+    bsnmpd      size=302 time=1450732620.000000000
+    ccd         size=268 time=1450732620.000000000
+    cleanvar    size=1178 time=1450732620.000000000
+    cleartmp    size=1820 time=1450732620.000000000
+    cron        size=324 time=1450732620.000000000
+    ctld        size=330 time=1450732620.000000000
+    ddb         size=444 time=1450732620.000000000
+    defaultroute \
+                size=1436 time=1450732620.000000000
+    devd        size=641 time=1450732620.000000000
+    devfs       size=1368 time=1450732620.000000000
+    dhclient    size=1202 time=1450732620.000000000
+    dmesg       size=371 time=1450732620.000000000
+    dumpon      size=1100 time=1450732620.000000000
+    faith       size=1393 time=1450732620.000000000
+    fsck        size=1203 time=1450732620.000000000
+    ftp-proxy   size=218 time=1450732620.000000000
+    ftpd        size=330 time=1450732620.000000000
+    gbde        size=2118 time=1450732620.000000000
+    geli        size=2648 time=1450732620.000000000
+    geli2       size=1896 time=1450732620.000000000
+    gptboot     size=2517 time=1450732620.000000000
+    gssd        size=173 time=1450732620.000000000
+    hastd       size=466 time=1450732620.000000000
+    hostapd     size=576 time=1450732620.000000000
+    hostid      mode=0755 size=3472 time=1450731239.000000000
+    hostid_save size=404 time=1450732620.000000000
+    hostname    size=2615 time=1450732620.000000000
+    inetd       size=311 time=1450732620.000000000
+    initrandom  size=1234 time=1450732620.000000000
+    ip6addrctl  size=2521 time=1450732620.000000000
+    ipfilter    size=2046 time=1450732620.000000000
+    ipfs        size=993 time=1450732620.000000000
+    ipfw        size=2296 time=1450732620.000000000
+    ipmon       size=671 time=1450732620.000000000
+    ipnat       size=479 time=1450732620.000000000
+    ipropd_master \
+                size=703 time=1450732620.000000000
+    ipropd_slave \
+                size=509 time=1450732620.000000000
+    ipsec       size=1064 time=1450732620.000000000
+    iscsictl    size=293 time=1450732620.000000000
+    iscsid      size=279 time=1450732620.000000000
+    jail        size=13145 time=1450732620.000000000
+    kadmind     size=457 time=1450732620.000000000
+    kdc         size=426 time=1450732620.000000000
+    keyserv     size=361 time=1450732620.000000000
+    kfd         size=264 time=1450732620.000000000
+    kld         size=1672 time=1450732620.000000000
+    kldxref     size=602 time=1450732620.000000000
+    kpasswdd    size=462 time=1450732620.000000000
+    ldconfig    size=1804 time=1450732620.000000000
+    local       size=477 time=1450732620.000000000
+    localpkg    size=1342 time=1450732620.000000000
+    lockd       size=594 time=1450732620.000000000
+    lpd         size=381 time=1450732620.000000000
+    mdconfig    size=4990 time=1450732620.000000000
+    mdconfig2   size=5895 time=1450732620.000000000
+    mixer       size=2410 time=1450732620.000000000
+    motd        size=953 time=1450732620.000000000
+    mountcritlocal \
+                size=983 time=1450732620.000000000
+    mountcritremote \
+                size=1529 time=1450732620.000000000
+    mountd      size=1046 time=1450732620.000000000
+    mountlate   size=663 time=1450732620.000000000
+    moused      size=1621 time=1450732620.000000000
+    mroute6d    size=243 time=1450732620.000000000
+    mrouted     size=322 time=1450732620.000000000
+    msgs        size=229 time=1450732620.000000000
+    natd        size=716 time=1450732620.000000000
+    netif       size=5562 time=1450732620.000000000
+    netoptions  size=2741 time=1450732620.000000000
+    netwait     size=2143 time=1450732620.000000000
+    newsyslog   size=435 time=1450732620.000000000
+    nfscbd      size=243 time=1450732620.000000000
+    nfsclient   size=1033 time=1450732620.000000000
+    nfsd        size=1308 time=1450732620.000000000
+    nfsuserd    size=240 time=1450732620.000000000
+    nisdomain   size=1775 time=1450732620.000000000
+    nsswitch    size=2540 time=1450732620.000000000
+    ntpd        size=1214 time=1450732620.000000000
+    ntpdate     size=659 time=1450732620.000000000
+    othermta    size=292 time=1450732620.000000000
+    pf          size=1287 time=1450732620.000000000
+    pflog       size=882 time=1450732620.000000000
+    pfsync      size=735 time=1450732620.000000000
+    postrandom  size=760 time=1450732620.000000000
+    power_profile \
+                size=2050 time=1450732620.000000000
+    powerd      size=374 time=1450732620.000000000
+    ppp         size=2300 time=1450732620.000000000
+    pppoed      size=532 time=1450732620.000000000
+    pwcheck     size=389 time=1450732620.000000000
+    quota       size=545 time=1450732620.000000000
+    random      size=1770 time=1450732620.000000000
+    rarpd       size=309 time=1450732620.000000000
+    rctl        size=406 time=1450732620.000000000
+    resolv      size=1927 time=1450732620.000000000
+    rfcomm_pppd_server \
+                size=2341 time=1450732620.000000000
+    root        size=684 time=1450732620.000000000
+    route6d     size=338 time=1450732620.000000000
+    routed      size=372 time=1450732620.000000000
+    routing     size=7685 time=1450732620.000000000
+    rpcbind     size=275 time=1450732620.000000000
+    rtadvd      size=1618 time=1450732620.000000000
+    rtsold      size=392 time=1450732620.000000000
+    rwho        size=219 time=1450732620.000000000
+    savecore    size=1229 time=1450732620.000000000
+    sdpd        size=413 time=1450732620.000000000
+    securelevel size=495 time=1450732620.000000000
+    sendmail    size=6343 time=1450732620.000000000
+    serial      size=5104 time=1450732620.000000000
+    sppp        size=768 time=1450732620.000000000
+    sshd        size=1511 time=1450732620.000000000
+    statd       size=550 time=1450732620.000000000
+    static_arp  size=2161 time=1450732620.000000000
+    static_ndp  size=2161 time=1450732620.000000000
+    stf         size=1844 time=1450732620.000000000
+    swap        size=200 time=1450732620.000000000
+    swaplate    size=228 time=1450732620.000000000
+    syscons     size=7935 time=1450732620.000000000
+    sysctl      size=515 time=1450732620.000000000
+    syslogd     size=1471 time=1450732620.000000000
+    timed       size=227 time=1450732620.000000000
+    tmp         size=2120 time=1450732620.000000000
+    ugidfw      size=620 time=1450732620.000000000
+    utx         size=207 time=1450732620.000000000
+    var         size=3202 time=1450732620.000000000
+    virecover   size=1549 time=1450732620.000000000
+    watchdogd   size=1616 time=1450732620.000000000
+    wpa_supplicant \
+                size=758 time=1450732620.000000000
+    ypbind      size=471 time=1450732620.000000000
+    yppasswdd   size=543 time=1450732620.000000000
+    ypserv      size=557 time=1450732620.000000000
+    ypset       size=491 time=1450732620.000000000
+    ypupdated   size=496 time=1450732620.000000000
+    ypxfrd      size=509 time=1450732620.000000000
+    zfs         size=819 time=1450732620.000000000
+    zvol        size=709 time=1450732620.000000000
+# ./rc.d
+..
+
+
+# ./security
+/set type=file uid=0 gid=0 mode=0444 nlink=1 flags=none
+security        type=dir mode=0755 nlink=2 time=1450732620.000000000
+    audit_class size=623 time=1450732620.000000000
+    audit_control \
+                mode=0600 size=184 time=1450732620.000000000
+    audit_event size=26356 time=1450732620.000000000
+    audit_user  mode=0600 size=89 time=1450732620.000000000
+    audit_warn  mode=0500 size=135 time=1450732620.000000000
+# ./security
+..
+
+
+# ./skel
+/set type=file uid=0 gid=0 mode=0644 nlink=1 flags=none
+skel            type=dir mode=0755 nlink=2 time=1450732825.000000000
+    dot.profile size=129 time=1450731239.000000000
+    dot.shrc    size=481 time=1450731239.000000000
+    dot.tcshrc  size=1341 time=1450731239.000000000
+# ./skel
+..
+
+
+# ./ssh
+ssh             type=dir mode=0755 nlink=2 time=1450732825.000000000
+    moduli      size=242153 time=1450732620.000000000
+    ssh_config  size=1647 time=1450732620.000000000
+    sshd_config size=2594 time=1450731239.000000000
+# ./ssh
+..
+
+
+# ./ssl
+ssl             type=dir mode=0755 nlink=2 time=1450732825.000000000
+    openssl.cnf size=9925 time=1450731239.000000000
+# ./ssl
+..
+
+
+# ./zfs
+zfs             type=dir mode=0755 nlink=2 time=1450732611.000000000
+# ./zfs
+..
+

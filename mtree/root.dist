@@ -1,0 +1,16 @@
+#	   user: root
+#	machine: pfs22-amd64-builder
+#	   tree: /usr/local/pfsense-fs/root
+#	   date: Mon Dec 21 15:20:25 2015
+
+# .
+/set type=file uid=0 gid=0 mode=0644 nlink=1 flags=none
+.               type=dir mode=0755 nlink=2 time=1450732825.000000000
+    .cshrc      nlink=2 size=898 time=1450732620.000000000
+    .gitsync_merge.sample \
+                size=167 time=1450731239.000000000
+    .hushlogin  size=0 time=1450731239.000000000
+    .login      size=229 time=1450732620.000000000
+    .profile    size=129 time=1450731239.000000000
+    .shrc       size=481 time=1450731239.000000000
+    .tcshrc     size=1341 time=1450731239.000000000

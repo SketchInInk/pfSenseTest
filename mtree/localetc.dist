@@ -1,0 +1,9 @@
+#	   user: root
+#	machine: pfs22-amd64-builder
+#	   tree: /usr/local/pfsense-fs/usr/local/etc
+#	   date: Mon Dec 21 15:20:25 2015
+
+# .
+/set type=file uid=0 gid=0 mode=0644 nlink=1 flags=none
+.               type=dir mode=0755 nlink=2 time=1450731239.000000000
+    pkg.conf    size=100 time=1450731239.000000000
